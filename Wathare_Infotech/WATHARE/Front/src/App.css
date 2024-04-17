@@ -1,0 +1,43 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.time{
+  margin-left: 10%;
+margin-top:400px
+}
+
+.timeline{
+  height: 100px;
+  width:90%;
+  background-color:grey;
+  border-radius: 10px;
+  overflow-x:hidden;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: row;
+}
+.timesegment{
+  height: 100px;
+  width:10px;
+  border-radius:10px;
+  background-color:yellow;
+}
+.timesegment1{
+  height: 100px;
+  width:10px;
+  border-radius:10px;
+  background-color:yellowgreen;
+}
+
+.timesegment2{
+  height: 100px;
+  width:10px;
+  border-radius:10px;
+  background-color:red;
+}
+::-webkit-scrollbar{
+  width:5px
+}
